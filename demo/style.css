@@ -1,0 +1,17 @@
+/* This is a very expensive css selector, it selects EVERYTHING */
+/** {
+    color: red;
+    border: 1px rebeccapurple solid;
+}*/
+
+.content {
+    /* I don't have bootstrap */
+    width: 50%;
+    height: 50vh;
+    background-color: lime;
+}
+
+.swear {
+    height: 2em;
+    font-weight: bolder;
+}
