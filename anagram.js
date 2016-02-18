@@ -9,8 +9,8 @@
 function isAnagram(word1, word2) {
   if (word1.length !== word2.length) return false;
   
-  var stuff1 = word1.split('').sort();
-  var stuff2 = word2.split('').sort();
+  var stuff1 = word1.toLowerCase().split('').sort();
+  var stuff2 = word2.toLowerCase().split('').sort();
 
   for (var i = 0; i < stuff1.length; i++) {
     if (stuff1[i] !== stuff2[i]) {
